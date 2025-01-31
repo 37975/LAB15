@@ -8,6 +8,12 @@ int main(){
 	int *x = &a;
 	void *y = &b;
 	int **z = &x;
+	/*cout << a << " " << b << " " << c << " " << x << " " << y << z << endl;
+	cout << &a << " " << &b << " " << &c << " " << &x << " " << &y << &z << endl;
+	c = 'F';
+	cout << a << " " << b << " " << c << " " << x << " " << y << z << endl;
+	*y = 'W';
+	cout << a << " " << b << " " << c << " " << x << " " << y << z << endl;*/
 	for (int i = 0; i < 6; i++){
 
 		if (i == 1){
@@ -16,7 +22,7 @@ int main(){
 		}else if(i == 2){
 			c = 'F';
 		}else if (i == 3){
-			b = 'W';
+			char(y) = 'W';
 		}else if (i == 4){
 			**z = 6;
 		}else if (i == 5){
